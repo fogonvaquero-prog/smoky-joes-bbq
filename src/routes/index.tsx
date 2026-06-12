@@ -141,32 +141,58 @@ function Home() {
 
           <div className="grid md:grid-cols-2 gap-8">
             <MenuCard icon={<Beef />} title="Smokehouse" items={[
-              "Alitas ahumadas",
-              "Costillas BBQ",
-              "Brisket texano",
+              "Alitas ahumadas (BBQ o salsa habanero mango)",
+              "Orden de costilla",
+              "Kilo de costilla",
+              "Orden de brisket",
+              "Kilo de brisket",
               "Tacos montados (brisket o costilla)",
+              "Sándwich de brisket o costilla",
             ]} />
-            <MenuCard icon={<Sandwich />} title="Sándwiches & Extras" items={[
-              "Sándwich de brisket",
-              "Sándwich de costilla",
+            <MenuCard icon={<Sandwich />} title="Guarniciones" items={[
+              "Ensalada de col",
+              "Sopa fría",
+              "Orden de tortillas",
+              "Orden de bollos",
+              "Papas gajo",
               "Papas al horno",
-              "Papas fritas",
-              "Sopa fría · Ensalada de col · Bollos",
+              "Papa rellena (brisket o costilla)",
             ]} />
             <MenuCard icon={<GlassWater />} title="Aguas & Refrescos" items={[
-              "Agua de jamaica",
               "Agua de mango",
+              "Agua de jamaica",
               "Horchata",
               "Té helado",
-              "Coca-Cola · Agua mineral",
+              "Agua",
+              "Agua mineral",
+              "Coca-Cola",
               "Cerveza",
             ]} />
-            <MenuCard icon={<Coffee />} title="Cafetería & Bebidas" items={[
+            <MenuCard icon={<Coffee />} title="Smoothies" items={[
+              "Mango",
+              "Tamarindo",
+              "Frutos rojos",
+              "Fresa",
+              "Frapuchino",
+              "Smoothies de té",
+              "Kiwi maracuyá",
+              "Manzana arándano",
+              "Arándano cereza",
+              "Moras",
+            ]} />
+            <MenuCard icon={<Coffee />} title="Cafetería" items={[
               "Café de olla",
-              "Espresso · Americano",
-              "Capuchino · Latte",
-              "Infusiones",
-              "Smoothies · Frappés",
+              "Capuchino",
+              "Americano",
+              "Expreso",
+              "Latte",
+              "Chocolate Hershey's",
+            ]} />
+            <MenuCard icon={<GlassWater />} title="Tés" items={[
+              "Kiwi maracuyá",
+              "Manzana arándano",
+              "Arándano cereza",
+              "Moras",
             ]} />
             <MenuCard className="md:col-span-2" icon={<IceCream />} title="Postres" items={[
               "Selección rotativa de postres caseros para cerrar con dulzura.",
