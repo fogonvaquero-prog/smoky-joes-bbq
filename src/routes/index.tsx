@@ -163,7 +163,6 @@ function Home() {
               "Agua de jamaica",
               "Horchata",
               "Té helado",
-              "Agua",
               "Agua mineral",
               "Coca-Cola",
               "Cerveza",
@@ -174,8 +173,7 @@ function Home() {
               "Frutos rojos",
               "Fresa",
               "Frapuchino",
-            ]} />
-            <MenuCard icon={<Coffee />} title="Smoothies de Té" items={[
+              { subtitle: "Smoothies de té" },
               "Kiwi maracuyá",
               "Manzana arándano",
               "Arándano cereza",
