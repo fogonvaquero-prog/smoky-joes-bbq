@@ -322,7 +322,7 @@ function Home() {
   );
 }
 
-function MenuCard({ icon, title, items, className = "" }: { icon: React.ReactNode; title: string; items: string[]; className?: string }) {
+function MenuCard({ icon, title, items, className = "" }: { icon: React.ReactNode; title: string; items: (string | { subtitle: string })[]; className?: string }) {
   return (
     <div className={`bg-card border border-border rounded-xl p-6 hover:border-ember/60 transition-colors ${className}`}>
       <div className="flex items-center gap-3">
@@ -332,11 +332,17 @@ function MenuCard({ icon, title, items, className = "" }: { icon: React.ReactNod
         <h3 className="font-display text-3xl text-bone tracking-wider">{title}</h3>
       </div>
       <ul className="mt-5 space-y-2">
-        {items.map((i) => (
-          <li key={i} className="flex items-start gap-3 text-muted-foreground">
-            <Flame className="h-4 w-4 text-ember mt-1 shrink-0" />
-            <span>{i}</span>
-          </li>
+        {items.map((i, idx) => (
+          typeof i === 'string' ? (
+            <li key={`${idx}-${i}`} className="flex items-start gap-3 text-muted-foreground">
+              <Flame className="h-4 w-4 text-ember mt-1 shrink-0" />
+              <span>{i}</span>
+            </li>
+          ) : (
+            <li key={`${idx}-${i.subtitle}`} className="font-heading text-sm uppercase tracking-wider text-bone mt-3 mb-1">
+              {i.subtitle}
+            </li>
+          )
         ))}
       </ul>
     </div>
