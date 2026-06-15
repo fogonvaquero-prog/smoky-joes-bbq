@@ -147,7 +147,7 @@ function Home() {
               "Orden de brisket",
               "Kilo de brisket",
               "Tacos montados (brisket o costilla)",
-              "Sándwich de brisket o costilla",
+              "Sándwich de brisket o costilla en chapata",
             ]} />
             <MenuCard icon={<Sandwich />} title="Guarniciones" items={[
               "Ensalada de col",
@@ -174,7 +174,8 @@ function Home() {
               "Frutos rojos",
               "Fresa",
               "Frapuchino",
-              "Smoothies de té",
+            ]} />
+            <MenuCard icon={<Coffee />} title="Smoothies de Té" items={[
               "Kiwi maracuyá",
               "Manzana arándano",
               "Arándano cereza",
@@ -215,7 +216,7 @@ function Home() {
               SÁNDWICHES <span className="text-gradient-fire">QUE NO PERDONAN</span>
             </h2>
             <p className="mt-5 text-muted-foreground text-lg">
-              Bollo dorado, montaña de carne ahumada al estilo de la casa, col crujiente con zanahoria y un toque de BBQ.
+              Chapata dorada, montaña de carne ahumada al estilo de la casa, col crujiente con zanahoria y un toque de BBQ.
               Disponibles en <span className="text-bone">brisket</span> o <span className="text-bone">costilla</span>.
             </p>
             <a href={MAPS_URL} target="_blank" rel="noopener noreferrer"
