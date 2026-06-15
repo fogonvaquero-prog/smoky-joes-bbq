@@ -147,7 +147,7 @@ function Home() {
               "Orden de brisket",
               "Kilo de brisket",
               "Tacos montados (brisket o costilla)",
-              "Sándwich de brisket o costilla",
+              "Sándwich de brisket o costilla en chapata",
             ]} />
             <MenuCard icon={<Sandwich />} title="Guarniciones" items={[
               "Ensalada de col",
