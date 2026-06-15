@@ -174,7 +174,8 @@ function Home() {
               "Frutos rojos",
               "Fresa",
               "Frapuchino",
-              "Smoothies de té",
+            ]} />
+            <MenuCard icon={<Coffee />} title="Smoothies de Té" items={[
               "Kiwi maracuyá",
               "Manzana arándano",
               "Arándano cereza",
