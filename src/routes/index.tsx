@@ -159,6 +159,8 @@ function Home() {
               "Papa rellena (brisket o costilla)",
             ]} />
             <MenuCard icon={<GlassWater />} title="Aguas & Refrescos" items={[
+              "Mango",
+              "Jamaica",
               "Horchata",
               "Té helado",
               "Agua mineral",
