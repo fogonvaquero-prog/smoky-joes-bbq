@@ -107,7 +107,7 @@ function Home() {
               CARNES <span className="text-gradient-fire">AL HUMO</span>
             </h2>
             <p className="mt-4 text-muted-foreground max-w-xl mx-auto">
-              Servidas con sopa fría, ensalada de col con zanahoria y bollos recién horneados.
+              Servidas con sopa fría, ensalada de col con zanahoria y bollos.
             </p>
           </div>
 
