@@ -205,7 +205,7 @@ function Home() {
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div className="relative">
             <div className="absolute -inset-6 bg-gradient-ember blur-3xl opacity-50" />
-            <img src={sandwichImg} alt="Sándwich de brisket" loading="lazy"
+            <img src={sandwichImg.url} alt="Sándwich de brisket" loading="lazy"
                  className="relative rounded-2xl shadow-deep ring-1 ring-accent/30" />
           </div>
           <div>
