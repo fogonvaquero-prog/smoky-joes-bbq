@@ -3,7 +3,7 @@ import logoAsset from "@/assets/logo-fogon.asset.json";
 import heroBbq from "@/assets/hero-bbq.jpg";
 import wingsImg from "@/assets/wings.jpg";
 import ribsImg from "@/assets/ribs.jpg";
-import sandwichImg from "@/assets/sandwich.jpg";
+import sandwichImg from "@/assets/chapata_brisket.png.asset.json";
 import {
   Flame, MapPin, Clock, Instagram, Facebook, Phone,
   Beef, Sandwich, Coffee, GlassWater, IceCream, Utensils
@@ -205,7 +205,7 @@ function Home() {
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div className="relative">
             <div className="absolute -inset-6 bg-gradient-ember blur-3xl opacity-50" />
-            <img src={sandwichImg} alt="Sándwich de brisket" loading="lazy"
+            <img src={sandwichImg.url} alt="Sándwich de brisket" loading="lazy"
                  className="relative rounded-2xl shadow-deep ring-1 ring-accent/30" />
           </div>
           <div>
