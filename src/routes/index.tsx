@@ -3,7 +3,7 @@ import logoAsset from "@/assets/logo-fogon.asset.json";
 import heroBbq from "@/assets/hero-bbq.jpg";
 import wingsImg from "@/assets/wings.jpg";
 import ribsImg from "@/assets/ribs.jpg";
-import sandwichImg from "@/assets/sandwich.jpg";
+import sandwichImg from "@/assets/chapata_brisket.png.asset.json";
 import {
   Flame, MapPin, Clock, Instagram, Facebook, Phone,
   Beef, Sandwich, Coffee, GlassWater, IceCream, Utensils
