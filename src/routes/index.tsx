@@ -107,13 +107,13 @@ function Home() {
               CARNES <span className="text-gradient-fire">AL HUMO</span>
             </h2>
             <p className="mt-4 text-muted-foreground max-w-xl mx-auto">
-              Servidas con sopa fría, ensalada de col con zanahoria y bollos recién horneados.
+              Servidas con sopa fría, ensalada de col con zanahoria y bollos.
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { img: wingsImg, name: "ALITAS AHUMADAS", desc: "Glaseadas con BBQ de la casa o salsa habanero mango, doradas al humo." },
+              { img: wingsImg, name: "ALITAS AHUMADAS", desc: "Acompáñalas con salsa BBQ o salsa de mango habanero." },
               { img: ribsImg, name: "COSTILLAS BBQ", desc: "Tiernas, jugosas, cocción lenta hasta caer del hueso." },
               { img: heroBbq, name: "BRISKET TEXANO", desc: "12+ horas de humo, corteza oscura y anillo rosado." },
             ].map((p) => (
@@ -214,7 +214,7 @@ function Home() {
               SÁNDWICHES <span className="text-gradient-fire">QUE NO PERDONAN</span>
             </h2>
             <p className="mt-5 text-muted-foreground text-lg">
-              Chapata dorada, montaña de carne ahumada al estilo de la casa, col crujiente con zanahoria y un toque de BBQ.
+              Chapata dorada, montaña de carne ahumada al estilo de la casa, ensalada de col con zanahoria.
               Disponibles en <span className="text-bone">brisket</span> o <span className="text-bone">costilla</span>.
             </p>
             <a href={MAPS_URL} target="_blank" rel="noopener noreferrer"
