@@ -113,7 +113,7 @@ function Home() {
 
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { img: wingsImg, name: "ALITAS AHUMADAS", desc: "Glaseadas con BBQ de la casa o salsa habanero mango, doradas al humo." },
+              { img: wingsImg, name: "ALITAS AHUMADAS", desc: "Acompáñalas con salsa BBQ o salsa de mango habanero." },
               { img: ribsImg, name: "COSTILLAS BBQ", desc: "Tiernas, jugosas, cocción lenta hasta caer del hueso." },
               { img: heroBbq, name: "BRISKET TEXANO", desc: "12+ horas de humo, corteza oscura y anillo rosado." },
             ].map((p) => (
